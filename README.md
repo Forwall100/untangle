@@ -1,4 +1,4 @@
-# Untangle
+# 🗂️🧠 Untangle
 
 This project provides a command-line tool for organizing files, directories, and URLs. Using an advanced language model, it generates summary information, title and tags for each file, which makes it easier to search and filter them later.
 
