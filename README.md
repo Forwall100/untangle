@@ -1,6 +1,6 @@
 # Untangle
 
-This project provides a command-line tool to process and manage metadata for files, directories, and URLs. Using a large language model, it generates a summary, title, and tags for each file, making it easier to search and filter them later.
+This project provides a command-line tool for organizing files, directories, and URLs. Using an advanced language model, it generates summary information, title and tags for each file, which makes it easier to search and filter them later.
 
 ## 🛠 Features
 
