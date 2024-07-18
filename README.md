@@ -59,59 +59,63 @@ colors = {
 Run the program using:
 
 ```sh
-python app.py <command> [options]
+un <command> [options]
 ```
 
 ### Commands and Options
+- **Help page**
+    ```sh
+    un -h
+    ```
 
 - **Add a file, directory, or URL**:
     ```sh
-    python app.py add <input_path>
+    un add <input_path>
     ```
 
 - **Search files by keywords**:
     ```sh
-    python app.py search <keywords> [--format table|json|csv]
+    un search <keywords> [--format table|json|csv]
     ```
 
 - **Filter files by tags**:
     ```sh
-    python app.py filter --tags <tag1,tag2,...> [--format table|json|csv]
+    un filter --tags <tag1,tag2,...> [--format table|json|csv]
     ```
 
 - **List all files**:
     ```sh
-    python app.py list [--date-after YYYY-MM-DD] [--format table|json|csv]
+    un list [--date-after YYYY-MM-DD] [--format table|json|csv]
     ```
 
 - **Show statistics**:
     ```sh
-    python app.py stats [--by-type] [--by-tag]
+    un stats [--by-type] [--by-tag]
     ```
 
 - **Manage tags**:
     - Add a tag to a file:
         ```sh
-        python app.py tag add <file_id> <tag>
+        un tag add <file_id> <tag>
         ```
     - Rename a tag:
         ```sh
-        python app.py tag rename <old_name> <new_name>
+        un tag rename <old_name> <new_name>
         ```
 
 - **Export the database**:
     ```sh
-    python app.py export
+    un export
     ```
 
 - **Import the database**:
     ```sh
-    python app.py import
+    un import
     ```
 
 - **Open a file**:
     ```sh
-    python app.py open <file_id>
+    un open <file_id>
     ```
 
 ## 📊 Example Outputs
